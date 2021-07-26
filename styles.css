@@ -1,0 +1,81 @@
+body {
+    font-family: Poppins, Verdana, Tahoma, sans-serif ;
+}
+
+#logo-container {
+    position: relative;
+}
+
+.site-logo {
+    width: 300px;
+    height: auto;
+    top: 30px;
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    background: rgb(255,245,168);
+    background: radial-gradient(circle, rgba(255,245,168,1) 0%, rgba(247,220,111,1) 68%);
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+
+.box-1 {
+    background-color: #490E08;
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin: 100px 0 10px 0;
+    top: 20%;
+}
+
+.box-2 {
+    background-color: #490E08;
+    width: 100%;
+    height: 15px;
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+nav {
+    margin-top: 21.5em;
+    background: rgb(226,200,128);
+    background: radial-gradient(circle, rgba(226,200,128,0.4598214285714286) 98%, rgba(247,220,111,0.28895308123249297) 100%);
+    position: absolute;
+    width: 100%;
+}
+
+.slogan-box {
+    padding-top: 60px;
+}
+
+.main-title, .subtitle {
+    font-weight: bold;
+    text-align: center;
+    color: #490E08;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    color: #1d4c8b;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+.img-fixed {
+    background-image: url("assets/Café-bakground.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    padding-top: 20%;
+} 
