@@ -58,6 +58,7 @@ nav {
     font-weight: bold;
     text-align: center;
     color: #490E08;
+    font-size: 30px;
 }
 
 .nav-link {
@@ -78,4 +79,15 @@ nav {
 
 main {
     padding-top: 20%;
-} 
+}
+
+@media (max-width: 576px) { 
+    .img-fixed {min-height: 760px;background-position: inherit;min-height: 900px;}
+    .site-logo {width: 200px;left:17%;top: 3em;}
+    .box-1 {height: 20px;margin: 60px 0 10px 0;}
+    .box-2 {height: 10px;}
+    .slogan-box {padding: 0;padding-left: 32%;}
+    .main-title, .subtitle {font-size: 20px;text-align:left;line-height: 1;}
+    header {height:310px;}
+    nav {margin-top: 16em;}
+}
