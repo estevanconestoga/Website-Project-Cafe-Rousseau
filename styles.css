@@ -43,7 +43,7 @@ header {
 }
 
 nav {
-    margin-top: 21.5em;
+    margin-top: 20.5em;
     background: rgb(226,200,128);
     background: radial-gradient(circle, rgba(226,200,128,0.4598214285714286) 98%, rgba(247,220,111,0.28895308123249297) 100%);
     position: absolute;
@@ -75,7 +75,22 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+
+.card {
+    height: 18em;
+    margin: 20px;
+    border: 1px solid #000;    
+}
+
+.mid-boxes{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35em;
+}
+
 
 main {
     padding-top: 20%;
