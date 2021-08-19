@@ -146,12 +146,38 @@ main {
     background: rgba(247,220,111,0.8);
 }
 
+.text-bold {
+    color: #490E08;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.text-regular {
+    color: #490E08;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 .instagram-title {
     color: #490E08;
     text-transform: uppercase;
     text-align: center;
     padding: 1em 0;
     font-weight: 700;
+}
+
+.footer-text {
+    padding: 2em 0;
+    width: 100%;
+    background-color: rgba(230, 194, 191,0.7);
+}
+
+.row.footer-info {
+    padding: 4em 0;
+}
+
+footer {
+    background-color: rgba(255, 219, 21,0.6);
 }
 
 
