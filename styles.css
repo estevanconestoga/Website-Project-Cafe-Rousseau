@@ -42,12 +42,28 @@ header {
     margin: 10px 0 10px 0;
 }
 
+.box-3 {
+    background-color: #490E08;
+    width: 100%;
+    height: 15px !important;
+    display: block;
+    margin: 0 !important;
+    opacity: 1 !important;
+}
+
+.box-4 {
+    background-color: #490E08;
+    width: 100%;
+    height: 15px;
+    display: block;
+}
+
 nav {
-    margin-top: 20.5em;
-    background: rgb(226,200,128);
-    background: radial-gradient(circle, rgba(226,200,128,0.4598214285714286) 98%, rgba(247,220,111,0.28895308123249297) 100%);
+    margin-top: 0;
+    background: rgba(226,200,128, 0.7);
     position: absolute;
     width: 100%;
+    z-index: 1; 
 }
 
 .slogan-box {
@@ -58,7 +74,7 @@ nav {
     font-weight: bold;
     text-align: center;
     color: #490E08;
-    font-size: 30px;
+    font-size: 2.5em;
 }
 
 .nav-link {
@@ -69,8 +85,8 @@ nav {
 }
 
 .img-fixed {
-    background-image: url("assets/Café-bakground.jpg");
-    min-height: 600px;
+    background-image: url("assets/Design\ Project_bg@2x.png");
+    min-height: 750px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,23 +94,67 @@ nav {
     position: relative;
 }
 
+
 .card {
-    height: 18em;
-    margin: 20px;
-    border: 1px solid #000;    
+    height: auto;
+    margin: 42px;
+    width: 20em;
+    border: 2px solid #1d4c8b;
+    background: rgba(247,220,111,0.8);
+    box-shadow: 12px 20px 50px -30px black;    
+}
+
+.card-body {
+  padding: 2em;  
+}
+
+.card-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #490E08;
+}
+
+h5.card-title {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color: #490E08;
+}
+
+h5.card-title a {
+    text-decoration: none;
+    color: #490E08;
 }
 
 .mid-boxes{
     position: absolute;
     left: 0;
     right: 0;
-    top: 35em;
+    top: 30em;
 }
-
 
 main {
     padding-top: 20%;
 }
+
+.instagram-gallery {
+    background: rgba(247,220,111,0.8);
+}
+
+.instagram-title {
+    color: #490E08;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em 0;
+    font-weight: 700;
+}
+
+
 
 @media (max-width: 576px) { 
     .img-fixed {min-height: 760px;background-position: inherit;min-height: 900px;}
