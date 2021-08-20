@@ -328,7 +328,7 @@ footer {
         padding: 50px;
         padding-top: 125px;
         right: -100px;
-        background: rgba(255, 219, 21,0.4);
+        background: rgba(255, 219, 21,1);
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
